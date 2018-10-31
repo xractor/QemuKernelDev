@@ -1,9 +1,10 @@
 # QemuKernelDev
 QEMU Linux Kernel development environment setup scripts
 
-- build-rootfs.sh build a rootfs on an image file
-- run-vm.sh virtual machine parameters
-- setup-tap.sh setup a bridge interface for guest OS
+- build-rootfs.sh: build a rootfs on an image file
+- build-kernel.sh: build Kernel image
+- run-vm.sh: virtual machine parameters
+- setup-tap.sh: setup a bridge interface for guest OS
 
 ## Pre-requisites
 
@@ -24,5 +25,3 @@ sudo apt install debootstrap
 sudo apt bridge-utils
 
 ```
-
-
