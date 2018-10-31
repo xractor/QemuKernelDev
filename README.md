@@ -9,13 +9,20 @@ QEMU Linux Kernel development environment setup scripts
 
 - An Ubuntu or Debian system
 - QEMU and its required packages 
-`sudo apt install qemu qemu-kvm libvirt-bin `
+```
+sudo apt install qemu qemu-kvm libvirt-bin
+```
 - debootstrap: bootstraps a basic Debian/Ubuntu system into a directory
-`sudo apt install debootstrap`
+```
+sudo apt install debootstrap
+```
 
 ## Optional
 
 - bridged network
-`sudo apt bridge-utils`
+```
+sudo apt bridge-utils
+
+```
 
 
