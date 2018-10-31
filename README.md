@@ -22,6 +22,6 @@ sudo apt install debootstrap
 
 - bridged network
 ```
-sudo apt bridge-utils
+sudo apt install bridge-utils
 
 ```
