@@ -32,6 +32,9 @@ sudo chroot $TEMPDIR /bin/bash -x << 'EOF'
 apt update
 apt -y install net-tools
 apt -y install ifupdown
+echo "/dev/sda  /   ext4 defaults 0 1" > /etc/fstab
+echo "Set root's password to 1234:"
+echo "root:1234" | chpasswd
 EOF
 
 sudo umount $TEMPDIR/sys
